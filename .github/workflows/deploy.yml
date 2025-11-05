@@ -1,0 +1,32 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches:
+      - main  # or your deploy branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Optional: install & test your project
+      # - name: Install dependencies
+      #   run: npm install
+      # - name: Run tests
+      #   run: npm test
+
+      - name: Deploy Backend to Render
+        run: |
+          curl "$RENDER_BACKEND_HOOK"
+        env:
+          RENDER_BACKEND_HOOK: ${{ secrets.RENDER_BACKEND_HOOK }}
+
+      - name: Deploy Frontend to Render
+        run: |
+          curl "$RENDER_FRONTEND_HOOK"
+        env:
+          RENDER_FRONTEND_HOOK: ${{ secrets.RENDER_FRONTEND_HOOK }}
