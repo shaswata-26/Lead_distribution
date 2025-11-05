@@ -22,7 +22,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-6">
           <div className="flex items-center space-x-8">
             <h1 className="text-2xl font-bold text-gray-900">
-              Lead Distribution System
+              Lead Distribution System 1
             </h1>
             
             {/* REPLACE THIS NAVIGATION SECTION */}
