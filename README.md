@@ -84,3 +84,10 @@ A comprehensive lead management system built with the MERN stack that allows adm
   mkdir uploads
   # Create environment file
   cp .env.example .env
+3. Frontend Setup
+  bash
+  # Navigate to frontend directory
+  cd ../frontend
+
+  # Install dependencies
+  npm install
