@@ -82,3 +82,5 @@ A comprehensive lead management system built with the MERN stack that allows adm
 
   # Create uploads directory
   mkdir uploads
+  # Create environment file
+  cp .env.example .env
