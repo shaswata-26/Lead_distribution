@@ -55,3 +55,19 @@ Multer - File upload handling
 csv-parser - CSV file processing
 
 xlsx - Excel file processing
+
+
+📋 Prerequisites
+Before running this application, make sure you have the following installed:
+
+Node.js (v14 or higher)
+
+MongoDB (local or Atlas)
+
+npm or yarn
+
+🚀 Installation & Setup
+1. Clone the Repository
+bash
+git clone <repository-url>
+cd mern-list-distribution
