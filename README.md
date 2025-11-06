@@ -70,3 +70,15 @@ A comprehensive lead management system built with the MERN stack that allows adm
 1. Clone the Repository
    git clone <repository-url>
    cd mern-list-distribution
+
+
+2. Backend Setup
+  bash
+  # Navigate to backend directory
+  cd backend
+
+  # Install dependencies
+  npm install
+
+  # Create uploads directory
+  mkdir uploads
