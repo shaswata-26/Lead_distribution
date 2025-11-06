@@ -27,7 +27,7 @@ A comprehensive lead management system built with the MERN stack that allows adm
 
   🛠️ Tech Stack
    Frontend
-     React.js - UI framework
+      React.js - UI framework
 
      Tailwind CSS - Styling and responsive design
 
@@ -37,7 +37,7 @@ A comprehensive lead management system built with the MERN stack that allows adm
 
      Context API - State management
 
-    Backend
+     Backend
      Node.js - Runtime environment
 
      Express.js - Web framework
