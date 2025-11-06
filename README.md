@@ -26,48 +26,47 @@ A comprehensive lead management system built with the MERN stack that allows adm
   5. Mobile-Friendly: Responsive design for all devices
 
   🛠️ Tech Stack
-Frontend
-React.js - UI framework
+   Frontend
+     React.js - UI framework
 
-Tailwind CSS - Styling and responsive design
+     Tailwind CSS - Styling and responsive design
 
-React Router - Navigation and routing
+     React Router - Navigation and routing
 
-Axios - HTTP client for API calls
+     Axios - HTTP client for API calls
 
-Context API - State management
+     Context API - State management
 
-Backend
-Node.js - Runtime environment
+    Backend
+     Node.js - Runtime environment
 
-Express.js - Web framework
+     Express.js - Web framework
+ 
+     MongoDB - Database
 
-MongoDB - Database
+     Mongoose - ODM for MongoDB
 
-Mongoose - ODM for MongoDB
+     JWT - Authentication
 
-JWT - Authentication
+     bcryptjs - Password hashing
 
-bcryptjs - Password hashing
+     Multer - File upload handling
 
-Multer - File upload handling
+     csv-parser - CSV file processing
 
-csv-parser - CSV file processing
-
-xlsx - Excel file processing
+     xlsx - Excel file processing
 
 
 📋 Prerequisites
-Before running this application, make sure you have the following installed:
+    Before running this application, make sure you have the following installed:
 
-Node.js (v14 or higher)
+    Node.js (v14 or higher)
 
-MongoDB (local or Atlas)
+    MongoDB (local or Atlas)
 
-npm or yarn
+    npm or yarn
 
 🚀 Installation & Setup
 1. Clone the Repository
-bash
-git clone <repository-url>
-cd mern-list-distribution
+   git clone <repository-url>
+   cd mern-list-distribution
