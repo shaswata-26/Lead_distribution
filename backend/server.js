@@ -2,6 +2,8 @@ const express=require('express');
 const dotenv=require('dotenv');
 const connectDB = require('./config/db');
 const cors = require('cors');
+const fs = require("fs");
+const path = require("path");
 
 
 dotenv.config();
@@ -24,6 +26,11 @@ app.use('/api/agents', require('./routes/agentRoutes'));
 app.use('/api/lists', require('./routes/listRoutes'));
 app.use('/api/tasks', require('./routes/taskRoutes'));
 
+const uploadDir = path.join(__dirname, "uploads");
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+  console.log("✅ 'uploads' folder created");
+}
 
 
 app.use((err, req, res, next) => {
